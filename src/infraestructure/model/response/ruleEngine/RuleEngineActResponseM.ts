@@ -8,8 +8,8 @@ export class RuleEngineActResponse
   extends BaseResponse<Array<ActResponseM>>
   implements BaseMapperInt<Array<ActDomainM>>
 {
-  @Type(() => ActResponseM) // Aplica el decorador para transformar cada elemento en ActResponseM
-  response!: ActResponseM[] | null;
+  @Type(() => ActResponseM)
+  response: ActResponseM[] | null = null; // Inicializa 'response'
 
   constructor(
     code: number,

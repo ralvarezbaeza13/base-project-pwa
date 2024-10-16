@@ -13,11 +13,7 @@ import "react-datepicker/dist/react-datepicker.css";
 const PokemonPage: React.FC = () => {
   const { t, changeLanguage } = useTranslationContext();
   const { data, loading, error } = useFetchPokemon();
-  const {
-    data: actsData,
-    loading: actsLoading,
-    error: actsError,
-  } = useFetchActs();
+  const {} = useFetchActs();
 
   const {
     startDate,
