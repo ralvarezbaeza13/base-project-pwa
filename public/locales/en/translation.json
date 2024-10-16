@@ -1,0 +1,13 @@
+{
+  "welcome": "Welcome to React",
+  "learnReact": "Learn React",
+  "helloWorld": "Hello World",
+  "pokemonList": "Pokemon List",
+  "loading": "Loading...",
+  "error": "Error",
+  "addDay":"ADD",
+  "removeDay":"REMOVE",
+  "dateDifference": "days",
+  "calculate":"CALCULAR"
+
+}
