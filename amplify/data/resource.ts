@@ -9,6 +9,7 @@ const schema = a
         pokemons: a.hasMany("Pokemon", "typeId"),
       })
       .identifier(["id"]),
+
     Pokemon: a
       .model({
         id: a.id().required(),

@@ -12,7 +12,7 @@ import "react-datepicker/dist/react-datepicker.css";
 
 const PokemonPage: React.FC = () => {
   const { t, changeLanguage } = useTranslationContext();
-  const { data, loading, error } = useFetchPokemon();
+  const { data, loading, error } = useFetchPokemon(); // Hook para obtener y suscribirse a los Pokémon en tiempo real
   const {} = useFetchActs();
 
   const {

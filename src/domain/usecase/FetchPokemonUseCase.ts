@@ -1,14 +1,16 @@
-import { PokemonRepositoryImpl } from "../../infraestructure/data/PokemonRepositoryImpl";
-import { Pokemon } from "../model/Pokemon";
+import { injectable, inject } from "inversify";
+import type { PokemonRepository } from "../../domain/repository/PokemonRepository";
+import { Pokemon } from "../../domain/model/Pokemon";
+import { TYPES } from "../../presentation/di/Types";
 
+@injectable()
 export class FetchPokemonUseCase {
-  private pokemonRepository: PokemonRepositoryImpl;
-
-  constructor(pokemonRepository: PokemonRepositoryImpl) {
-    this.pokemonRepository = pokemonRepository;
-  }
+  constructor(
+    @inject(TYPES.PokemonRepository)
+    private pokemonRepository: PokemonRepository
+  ) {}
 
   async execute(): Promise<Pokemon[]> {
-    return this.pokemonRepository.fetchPokemon();
+    return this.pokemonRepository.getAll();
   }
 }
