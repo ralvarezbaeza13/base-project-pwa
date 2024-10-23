@@ -1,0 +1,16 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "web",
+        "site": "https://main.d3khydlw98663i.amplifyapp.com"
+      }
+    },
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "web",
+        "site": "https://develop.d3khydlw98663i.amplifyapp.com"
+      }
+    }
+  ]

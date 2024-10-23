@@ -1,9 +1,0 @@
-[
-    {
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "THE PALACE RESORTS APP",
-        "site": "https://develop.d3khydlw98663i.amplifyapp.com/"
-      }
-    }
-  ]
