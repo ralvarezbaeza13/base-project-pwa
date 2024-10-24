@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">base-project-pwa</string>
+    <string name="title_activity_main">base-project-pwa</string>
+    <string name="package_name">com.palaceresorts.palaceapp</string>
+    <string name="custom_url_scheme">com.palaceresorts.palaceapp</string>
+</resources>

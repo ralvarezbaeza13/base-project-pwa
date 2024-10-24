@@ -1,8 +1,8 @@
 {
-  "welcome": "Bienvenido a React",
+  "welcome": "Hola Capacitor",
   "learnReact": "Aprende React",
   "helloWorld": "Hola Mundo",
-  "pokemonList": "Lista de Pokémon",
+  "pokemonList": "Prueba de despliegue con capacitor",
   "loading": "Cargando...",
   "error": "Error",
   "addDay":"AGREGAR",
